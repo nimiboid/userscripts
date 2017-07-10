@@ -1,5 +1,7 @@
 // Using JMWE add-on
 // Add Post function to transition parent issue
+//    The newly created post function must run  after either "Update change history ..." 
+//    or after "Re-index ..."
 // Story workflow: Open <--> In Progress <--> Testing <--> Done
 // Subtask workflow: Open <--> In Progress <--> Done
 // Subtask-types: Development, Testing
