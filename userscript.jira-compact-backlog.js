@@ -13,11 +13,11 @@
 (function() {
     'use strict';
 
-    setTimeout(function() {
+    setInterval(function() {
         var els = document.getElementsByClassName("ghx-plan-extra-fields")
 
         while(els.length > 0) {
             els[0].parentNode.removeChild(els[0]);
         }
-    }, 1000); // two seconds
+    }, 1000); // one second
 })();
